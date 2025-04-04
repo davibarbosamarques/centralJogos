@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Jogo dos Herois</title>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo da Imersão Dev" />
+    </div>
+
+    <div class="titulo">
+        <h2>Força ou Queda</h2>
+    </div>
+
+    <main class="conteudo-jogo">
+        <div id="container">
+            <h2>Escolha 3 jogadores para seu time:</h2>
+            <input type="text" name="escolha jogador" id="escolhaJogador" placeholder="escolha seu persogem">
+            <p id="informacoesJogador" class="resultado"></p>
+            <p id="informacoesComputador" class="resultado"></p>
+            <h1 id="resultadoFinal" class="resultado"></h1>
+            <button id="resultadoBtn" onclick="verResultado()">Ver Resultado</button>
+        </div>
+    </main>
+</body>
+
+</html>
