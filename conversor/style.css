@@ -9,12 +9,30 @@ body {
   }
   
   /* Logo Styles */
-  .logo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+  header {
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
+  }
+  header .logo {
     max-width: 150px;
     width: auto;
+  }
+
+  header i{
+    color: #1ABC9C;
+    padding: 7px;
+    border: 2px solid #1ABC9C;
+    border-radius: 5rem;
+    transition: 0.7s;
+  }
+  header i:hover{
+    border: 2px solid white;
+    color: white;
+    transition: 0.7s;
   }
   
   /* Container with the background image */
