@@ -4,8 +4,14 @@ body {
     background-size: cover;
     font-family: "Gabarito", sans-serif;
     margin: 20px;
+    color: white;
   }
-  
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
   header {
     height: 3.5rem;
     display: flex;
@@ -31,7 +37,9 @@ body {
     color: white;
     transition: 0.7s;
   }
-  
+  .titulo{
+    text-align: center;
+  }
   /* Caixa principal do jogo */
   .conteudo-jogo {
     background: rgba(0, 0, 0, 0.7);
@@ -42,12 +50,19 @@ body {
     justify-content: center;
     margin-top: 2rem;
   }
+  input{
+    width: 97%;
+    height: 1.5rem;
+    border-radius: 2rem;
+    padding-left: 10px;
+    border: 1px solid #ff1b7b;
+  }
   
   .conteudo-jogo:hover {
     background: rgba(0, 0, 0);
     box-shadow: 0 0 5px #19caca;
   }
-  
+
   /* Títulos e textos */
   h2,
   p {
@@ -56,15 +71,18 @@ body {
   
   button {
     padding: 10px 20px;
-    margin: 10px;
+    margin: 5px;
     border: none;
     background: #ff1b7b;
     color: white;
     cursor: pointer;
     transition: background 0.3s;
-    width: 50%;
+    width: 97%;
+    border-radius: 2rem;
   }
-  
+  .hide{
+    display: none;
+  }
   button:hover {
     background: #19caca;
   }

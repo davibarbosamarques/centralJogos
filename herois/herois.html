@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="herois.js" defer></script>
     <title>Imersão Dev</title>
 </head>
 <body>
@@ -24,11 +24,15 @@
     <main class="conteudo-jogo">
         <div id="container">
             <h2>Escolha 3 jogadores para seu time:</h2>
+
             <input type="text" name="escolha jogador" id="escolhaJogador" placeholder="escolha seu persogem">
+
             <p id="informacoesJogador" class="resultado"></p>
             <p id="informacoesComputador" class="resultado"></p>
             <h1 id="resultadoFinal" class="resultado"></h1>
-            <button id="resultadoBtn" onclick="verResultado()">Ver Resultado</button>
+
+            <button id="addPersonagem">Adicionar</button>
+            <button id="resultadoBtn" onclick="verResultado()" class="hide">Ver Resultado</button>
         </div>
     </main>
 </body>
