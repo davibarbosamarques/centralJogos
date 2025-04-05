@@ -55,18 +55,25 @@ body {
   .content h2 {
     margin-bottom: 20px;
   }
-  
-  /* Button Styles */
-  button {
-    background-color: #ff1b7b;
+  input{
+    padding-left: 1rem;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 2rem;
     border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
+  }
+  /* Button Styles */  
+  button {
+    height: 2rem;
+    margin: 10px;
+    border: none;
+    background: #ff1b7b;
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background 0.3s;
+    width: 100%;
+    border-radius: 2rem;
   }
-  
   button:hover {
     background-color: #1ABC9C;
   }
