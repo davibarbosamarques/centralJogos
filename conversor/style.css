@@ -57,6 +57,10 @@ body {
   }
   
   /* Button Styles */
+  input{
+    width: 90%;
+    height: 1.5rem;
+  }
   button {
     background-color: #ff1b7b;
     border: none;
