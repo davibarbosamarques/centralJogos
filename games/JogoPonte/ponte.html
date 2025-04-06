@@ -5,28 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="ponte.js" defer></script>
     <title>Imersão Dev</title>
 </head>
 <body>
     <header>
-      <a href="../index.html">
+      <a href="../../index.html">
         <i class="fa-solid fa-arrow-left"></i>
       </a>
 
       <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
     </header>
-
+  
     <div class="container">
       <div class="content">
-        <h2>Quem ganha, ganha em Wons!</h2>
-        <p> Que tal converter esse valor?</p>
-        
-        <input type="number" name="valorWons" id="valorWons" placeholder="Digite seu valor em Wons">
+        <h2>Pra ganhar, é preciso coragem!</h2>
+        <p> Até mesmo para pisar em um chão feito de vidro</p>
+        <input type="number" id="escolha-jogador" placeholder="vc vai para piso 1, 2 ou 3">
         <p id="resultado"></p>
-
-        <button onclick="converterDolar()">Converter p/ Dolar</button>
-        <button onclick="converterReal()">Converter p/ Real</button>
+        <button onclick="jogar()" id="jogar">Bora jogar!</button>
+        <button onclick="novaTentativa()" class="hide" id="tentativa">Tentar Novamente</button>
       </div>
     </div>
     <footer>Alura - Imersão DEV - 2025</footer>

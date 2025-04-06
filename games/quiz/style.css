@@ -5,7 +5,9 @@ body {
     font-family: "Gabarito", sans-serif;
     margin: 20px;
   }
-  
+  h2{
+    text-align: center;
+  }
   header {
     height: 3.5rem;
     display: flex;

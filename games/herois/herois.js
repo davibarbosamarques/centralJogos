@@ -49,16 +49,19 @@ function verResultado() {
         resultadoJogador.innerText = `vc atingiu a força de ${forcaHerois}` 
         resultadoComputador.innerText = `os vilões a força de ${forcaViloes}`
         resultadoFinal.innerText = "empate"
+        buttonVerResultado.classList.toggle("hide")
         return
     } else if (forcaHerois > forcaViloes) {
         resultadoJogador.innerText = `vc atingiu a força de ${forcaHerois}` 
         resultadoComputador.innerText = `os vilões a força de ${forcaViloes}`
-        resultadoFinal.innerText = "Os herois venceram"
+        resultadoFinal.innerText = "Os heróis venceram"
+        buttonVerResultado.classList.toggle("hide")
         return
     } else {
         resultadoJogador.innerText = `vc atingiu a força de ${forcaHerois}` 
         resultadoComputador.innerText = `os vilões a força de ${forcaViloes}`
         resultadoFinal.innerText = "Vilões venceram"
+        buttonVerResultado.classList.toggle("hide")
         return 
     }
 }
