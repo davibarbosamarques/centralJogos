@@ -65,12 +65,20 @@ body {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border-radius: 2rem;
   }
-  
+  input{
+    width: 97%;
+    height: 1.7rem;
+    border-radius: 2rem;
+    padding-left: 10px;
+  }
   button:hover {
     background-color: #1ABC9C;
   }
-  
+  .hide{
+    display: none;
+  }
   /* Footer Styles */
   footer {
     text-align: center;
